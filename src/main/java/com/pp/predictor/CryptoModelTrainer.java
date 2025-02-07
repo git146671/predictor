@@ -63,5 +63,4 @@ public class CryptoModelTrainer {
         // Сохранение модели
         model.save(new File("model/crypto_model.zip"));
     }
-
 }

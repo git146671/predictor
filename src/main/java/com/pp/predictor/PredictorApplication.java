@@ -9,5 +9,4 @@ public class PredictorApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PredictorApplication.class, args);
 	}
-
 }

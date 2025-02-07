@@ -30,7 +30,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	implementation 'org.deeplearning4j:deeplearning4j-core:1.0.0-M2.1'
-
+	implementation 'org.nd4j:nd4j-native-platform:1.0.0-M2.1'
 }
 
 tasks.named('test') {

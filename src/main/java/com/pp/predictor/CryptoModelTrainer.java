@@ -23,8 +23,8 @@ public class CryptoModelTrainer {
     @PostConstruct
     public void init() throws IOException, InterruptedException {
 
-        int numInputs = 1;
-        int numOutputs = 1;
+        int numInputs = 9;
+        int numOutputs = 2;
         int numHiddenNodes = 50;
         int batchSize = 32;
         int epochs = 50;
